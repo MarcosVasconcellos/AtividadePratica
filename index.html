@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Thiago Rocha Cabral de Vasconcellos - RU 4554230</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #59a214;
+        }
+
+        .nav_formato {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+        }
+
+        nav ul a {
+            border-radius: 30px; /*faz os botoes nav redondos*/
+        }
+        
+
+        nav ul li + li {
+            margin-left: 10px; /* coloca espaço entre botoes nav */ 
+        }
+
+        .main {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        ul {
+            list-style-type: none; /* faz a lista nav nao ter pontos*/
+        }
+
+        a,
+        a:link {
+            border: solid #d83218 1px;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover { /* muda a cor dos botoes nav quando o mouse faz hover*/
+            background-color: #2382da;
+            color: rgb(185, 218, 20);
+        }
+
+    </style>
+</head>
+
+<body style="background-color:rgb(203, 230, 235);">
+    <header class="container">
+        <h1 style="color: rgb(11, 0, 172); text-align: center;">Marcos Thiago Rocha Cabral de Vasconcellos</h1>
+        <h2 style="color: rgb(11, 0, 172); text-align: center;">RU 4554230</h2>
+        <br>
+
+    </header>
+    <nav class="container nav_formato">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+        <section class="main">
+            <h1>
+                Quem sou eu?
+            </h1>
+            <p>Olá, eu sou o Marcos Thiago, mas os meus amigos só me chamam de Thiago. Eu estou morando na França no momento
+                e adoro viajar! Algums dos meus lugares favoritos que eu já visitei são o Japão, a Itália, e o Canadá. Eu 
+                não gosto muito de postar fotos na internet, então você vai ter que acreditar sem ver mesmo!
+            </p>
+            <br>
+            <h1>
+                Hobbies
+            </h1>
+            <p>Os meus hobbies principais são os video games e a natação! Adoro jogar League of Legends e Call of Duty com os
+                meus amigos, e nado quase todos os finais de semana.
+            </p>
+        </section>
+</body>
+
+</html>

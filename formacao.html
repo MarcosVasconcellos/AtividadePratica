@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Thiago Rocha Cabral de Vasconcellos - RU 4554230</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #59a214;
+        }
+
+        .nav_formato {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+        }
+
+        nav ul a {
+            border-radius: 30px; /*faz os botoes nav redondos*/
+        }
+        
+
+        nav ul li + li {
+            margin-left: 10px; /* coloca espaço entre botoes nav */ 
+        }
+
+        .main {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        nav ul {
+            list-style-type: none; /* faz a lista nav nao ter pontos*/
+        }
+
+        a,
+        a:link { /* muda a borda em volta dos botoes */
+            border: solid #d83218 1px;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        a:hover { /* muda a cor dos botoes nav quando o mouse faz hover*/
+            background-color: #2382da;
+            color: rgb(185, 218, 20);
+        }
+
+    </style>
+</head>
+
+<body style="background-color:rgb(203, 230, 235);">
+    <header class="container">
+        <h1 style="color: rgb(11, 0, 172); text-align: center;">Marcos Thiago Rocha Cabral de Vasconcellos</h1>
+        <h2 style="color: rgb(11, 0, 172); text-align: center;">RU 4554230</h2>
+        <br>
+
+    </header>
+    <nav class="container nav_formato">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+        <section class="main">
+            <h1>
+                Idiomas
+            </h1>
+            <ul>
+                <li>Língua materna: Português</li>
+                <li>Fluente: Inglês, Italiano</li>
+                <li>Intermediário: Francês</li>
+            </ul>
+            <br>
+            <h1>
+                Formação
+            </h1>
+            <ul>
+                <li>Terminei o ensino médio nos EUA</li>
+                <li>Estudando Engenharia de Software na UNINTER</li>
+            </ul>
+        </section>
+</body>
+
+</html>
